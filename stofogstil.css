@@ -1,0 +1,317 @@
+
+/* ---------------------- MENUEN ---------------------- */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ffffff;
+  color: white;
+  padding-left: 5px;
+  padding-top: 4px;
+  font-size: 16px;
+  border: none;
+}
+
+.div1 {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  margin-top: -10px;
+}
+
+.div2 {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+}
+
+.div3 {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  z-index: 1;
+  margin-top: 13.5px;
+  margin-left: -4px;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  font-size: 14px;
+  padding: 10px 14px;
+  display: block;
+  font-family: 'signika', sans-serif;
+  background-color: #ffffff;
+  text-decoration: none;
+  border: 1px solid lightgrey;
+  margin: -5px;
+}
+
+@media only screen and (max-width: 480px) {
+dropdown-content a {
+  font-size: 14px;
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  font-family: "Arial";
+  background-color: #ffffff;
+}
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.logo {
+  margin-left: 82px;
+  margin-top: -35px;
+}
+
+.favoritter {
+  padding-left: 265px;
+  margin-top: -30px;
+}
+
+.indkobskurv {
+  float: right;
+  margin-top: -30px;
+  padding-right: 8px;
+}
+
+
+
+/* ----------------------- FORSIDE ------------------------*/
+
+
+
+/* ----------------------- SØG ------------------------- */
+
+* {
+  box-sizing: border-box;
+  margin-top: 7px;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 5px;
+  margin-left: 4px;
+  font-size: 12px;
+  border: 1px solid lightgrey;
+  float: left;
+  width: 242px;
+  background: #f1f1f1;
+  font-family: 'signika', sans-serif;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 60px;
+  height: 28px;
+  background: #ffffff;
+  color: grey;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* BILLEDER PÅ FORSIDEN */
+
+.baggrundsbillede1 {
+  margin-top: 5px;
+  float: left;
+  padding-left: 4px;
+}
+
+.baggrundsbillede2 {
+  margin-top: 1px;
+  float: left;
+  padding-left: 4px;
+}
+
+.baggrundsbillede3 {
+  margin-top: 1px;
+  float: left;
+  padding-left: 5px;
+}
+
+.baggrundsbillede4 {
+  margin-top: 1px;
+  float: left;
+  padding-left: 4px;
+}
+
+/* ------------------ BILLEDGENKENDELSE ---------------*/
+
+.overskrift {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'signika', sans-serif;
+}
+
+.billedgenkendelsebrodtekst {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'signika', sans-serif;
+}
+
+/* ------------------- LOG IND ---------------------*/
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'signika', sans-serif;
+}
+
+/* Set a style for all buttons */
+button1 {
+  background-color: #96D9C0;
+  color: white;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 18px;
+  font-family: 'signika', sans-serif;
+  font-size: 14px;
+}
+
+/* Add a hover effect for buttons */
+button1:hover {
+  opacity: 0.8;
+}
+
+.hr2 {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Overskriften på siden "Log ind" */
+.logindoverskrift {
+  text-align: center;
+  font-family: 'signika', sans-serif;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+/* Add padding to containers */
+.containerprofil {
+  padding: 16px;
+  font-family: 'signika', sans-serif;
+  font-size: 12px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+  font-family: 'signika', sans-serif;
+  font-size: 12px;
+}
+
+/* ------------------- FOOTEREN -------------------*/
+
+/* Footeren */
+.footer {
+  width: 98%;
+  padding-bottom: 65px;
+  height: 160px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  font-family: 'signika', sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 200;
+  line-height: 13.2px;
+  font-size: 15px;
+
+}
+
+/* Alle links i footeren skal være sorte */
+.footer a {
+  color: #000000;
+}
+
+/* Kontaktoplysninger i footeren */
+.centered1 {
+  text-align: center;
+}
+
+/* Copyright-tekst i footeren*/
+.centered2 {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+
+/* ------------------- NEDERSTE MENU -------------------*/
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  background-color: #ffffff;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 2px 11px;
+  margin-top: 0px;
+  border-top: 1px solid grey;
+}
