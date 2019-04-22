@@ -112,38 +112,36 @@ dropdown-content a {
 }
 
 /* Style the search field */
-form.example input[type=text] {
+form.sogeboks input[type=tekst] {
   padding: 5px;
+  width: 80%;
   margin-left: 4px;
   font-size: 12px;
   border: 1px solid lightgrey;
   float: left;
-  width: 242px;
   background: #f1f1f1;
   font-family: 'signika', sans-serif;
 }
 
 /* Style the submit button */
-form.example button {
+form.sogeboks button {
   float: left;
-  width: 60px;
-  height: 28px;
-  background: #ffffff;
+  width: 17%;
+  padding: 1.5px;
+  background: white;
   color: grey;
   font-size: 14px;
   border: 1px solid lightgrey;
-
   border-left: none; /* Prevent double borders */
   cursor: pointer;
-
 }
 
-form.example button:hover {
-  background: #0b7dda;
+form.sogeboks button:hover {
+  background: #ffffff;
 }
 
 /* Clear floats */
-form.example::after {
+form.sogeboks::after {
   content: "";
   clear: both;
   display: table;
@@ -155,6 +153,11 @@ form.example::after {
   margin-top: 5px;
   float: left;
   padding-left: 4px;
+}
+
+.baggrundsbillede1 img {
+  width: 302px;
+  height: 200px;
 }
 
 .baggrundsbillede2 {
@@ -169,12 +172,6 @@ form.example::after {
   padding-left: 5px;
 }
 
-.baggrundsbillede4 {
-  margin-top: 1px;
-  float: left;
-  padding-left: 4px;
-}
-
 /* ------------------ BILLEDGENKENDELSE ---------------*/
 
 .overskrift {
@@ -182,78 +179,223 @@ form.example::after {
   text-align: center;
   margin-top: 40px;
   font-family: 'signika', sans-serif;
+  color: #96D9C0;
 }
 
-.billedgenkendelsebrodtekst {
-  font-size: 14px;
-  text-align: center;
-  margin-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-family: 'signika', sans-serif;
+.hr4 {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -15px;
+  margin-bottom: 20px;
 }
 
-/* ------------------- LOG IND ---------------------*/
-
-
-/* Full-width inputs */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  font-family: 'signika', sans-serif;
+.kameraogscan {
+  padding-left: 4.5px;
 }
 
-/* Set a style for all buttons */
-button1 {
+.tagbilledeknap {
   background-color: #96D9C0;
   color: white;
   padding: 8px 20px;
-  margin: 8px 0;
-  border: none;
+  margin: 4px 0;
+  width: 60%;
   cursor: pointer;
-  width: 100%;
-  border-radius: 18px;
+  border-radius: 4px;
+  padding-left: 18px;
   font-family: 'signika', sans-serif;
-  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 20%;
+  margin-top: 20px;
 }
 
-/* Add a hover effect for buttons */
-button1:hover {
-  opacity: 0.8;
+.tagbilledeknap a {
+  color: white;
 }
+
+/* ------------------- BESKÆR BILLEDE -------------- */
+
+.overskriftbeskaer {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'signika', sans-serif;
+  color: #96D9C0;
+}
+
+.hr5 {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.beskaerbilledepic {
+  padding-left: 11px;
+  padding-top: 3px;
+}
+
+.beskaerknap {
+  background-color: #96D9C0;
+  color: white;
+  padding: 8px 20px;
+  margin: 4px 0;
+  width: 70%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'signika', sans-serif;
+  border: 1px solid lightgrey;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+.beskaerknap a {
+  color: white;
+}
+
+
+/* ------------------- LOG IND --------------------- */
 
 .hr2 {
   width: 50%;
   margin-left: 25%;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  margin-top: -15px;
+  margin-bottom: 20px;
 }
 
 /* Overskriften på siden "Log ind" */
 .logindoverskrift {
   text-align: center;
   font-family: 'signika', sans-serif;
-  font-size: 22px;
+  font-size: 26px;
   margin-top: 40px;
+  color: #96D9C0;
 }
 
-/* Add padding to containers */
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=E-mailadresse] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: 'signika', sans-serif;
+}
+
+/* Brugernavn og adgangskode */
 .containerprofil {
   padding: 16px;
   font-family: 'signika', sans-serif;
   font-size: 12px;
 }
 
-/* The "Forgot password" text */
+/* Glemt adgangskode */
 span.psw {
-  float: right;
-  padding-top: 16px;
+  float: left;
   font-family: 'signika', sans-serif;
   font-size: 12px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  padding-left: 17px;
+}
+
+.logind {
+  background-color: #96D9C0;
+  padding: 4px 4px;
+  margin: 4px 4px;
+  width: 40%;
+  border-radius: 18px;
+  padding-left: 20px;
+}
+
+.logindknap {
+  background-color: #96D9C0;
+  color: #ffffff;
+  padding: 8px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-family: 'signika', sans-serif;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+  margin-bottom: -10px;
+  text-decoration: none;
+}
+
+.logindknap a {
+  color: #ffffff;
+}
+
+.forblivloggetind {
+  font-family: 'signika', sans-serif;
+  font-size: 12px;
+  padding-left: 98px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.opret {
+  font-size: 14px;
+  font-family: 'signika', sans-serif;
+}
+
+
+/* ----------------- OPRET BRUGER -----------------*/
+
+.opretbrugeroverskrift {
+  font-family: 'signika', sans-serif;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 40px;
+  color: #96D9C0;
+}
+
+.opretbrugertekst {
+  font-family: 'signika', sans-serif;
+  text-align: center;
+  font-size: 12px;
+  margin-top: -25px;
+}
+
+.hr3 {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.profilbilledelogo {
+  padding-left: 88px;
+  margin-top: -10px;
+}
+
+.opretbokse {
+  font-family: 'signika', sans-serif;
+  padding: 16px;
+  font-size: 12px;
+  margin-top: -15px;
+}
+
+.opretknap {
+  background-color: #96D9C0;
+  color: white;
+  padding: 8px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'signika', sans-serif;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+}
+
+.opretknap a {
+  color: #ffffff;
 }
 
 /* ------------------- FOOTEREN -------------------*/
@@ -274,7 +416,6 @@ span.psw {
   font-weight: 200;
   line-height: 13.2px;
   font-size: 15px;
-
 }
 
 /* Alle links i footeren skal være sorte */
@@ -292,6 +433,7 @@ span.psw {
   text-align: center;
   font-size: 12px;
   padding-top: 5px;
+  margin-bottom: 75px;
 }
 
 
